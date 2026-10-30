@@ -1,0 +1,104 @@
+{
+  "employees": [
+    {
+      "employeeCode": "1",
+      "name": "Sravani Singuluri",
+      "email": "sravanisinguluri@gmail.com",
+      "phone": "9876543211",
+      "departmentId": "Ik0HB63",
+      "designation": "Software Engineer",
+      "joiningDate": "2023-06-10",
+      "salary": 65000,
+      "status": "Active",
+      "id": "2"
+    },
+    {
+      "employeeCode": "2",
+      "name": "Tejasri Tatipaka",
+      "email": "tejasritatipaka@gmail.com",
+      "phone": "9876543212",
+      "departmentId": "3",
+      "designation": "Frontend Developer",
+      "joiningDate": "2024-03-20",
+      "salary": 48000,
+      "status": "Active",
+      "id": "3"
+    },
+    {
+      "employeeCode": "3",
+      "name": "Upendra Yenda",
+      "email": "upendrayenda@gmail.com",
+      "phone": "9876543213",
+      "departmentId": "3",
+      "designation": "Project Engineer",
+      "joiningDate": "2022-11-05",
+      "salary": 60000,
+      "status": "Inactive",
+      "id": "4"
+    },
+    {
+      "employeeCode": "4",
+      "name": "Viharika Singuluri",
+      "email": "viharikasinguluri@gmail.com",
+      "phone": "9876543214",
+      "departmentId": "2",
+      "designation": "HR Executive",
+      "joiningDate": "2025-02-01",
+      "salary": 40000,
+      "status": "Active",
+      "id": "5"
+    },
+    {
+      "employeeCode": "5",
+      "name": "Sandhya Tatipaka",
+      "email": "sandhyatatipaka@gmail.com",
+      "phone": "9876543210",
+      "departmentId": "1",
+      "designation": "Software Engineer",
+      "joiningDate": "2024-10-06",
+      "salary": 55000,
+      "status": "Active",
+      "id": "Khfcr1q"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "IT"
+    },
+    {
+      "id": "2",
+      "name": "Human Resources"
+    },
+    {
+      "id": "3",
+      "name": "Engineering"
+    },
+    {
+      "name": "CSE",
+      "id": "Ik0HB63"
+    }
+  ],
+  "designations": [
+    {
+      "id": "1",
+      "name": "Software Engineer"
+    },
+    {
+      "id": "2",
+      "name": "Frontend Developer"
+    },
+    {
+      "id": "3",
+      "name": "HR Manager"
+    },
+    {
+      "id": "4",
+      "name": "HR Executive"
+    },
+    {
+      "id": "5",
+      "name": "Project Engineer"
+    }
+  ]
+}
