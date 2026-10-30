@@ -1,16 +1,79 @@
-# React + Vite
+**Employee HR Management Portal**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Employee & HR Management Portal designed to manage employee records, departments, and designations efficiently.
 
-Currently, two official plugins are available:
+**Live Demo**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://employee-hr-portal-one.vercel.app
 
-## React Compiler
+**Features**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Employee management (Add, View, Update, Delete)
 
-## Expanding the ESLint configuration
+Department management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Designation management
+
+Search and filter employees
+
+View individual employee details
+
+Workforce dashboard with statistics
+
+Average salary calculations
+
+JSON Server API integration
+
+**Technologies Used**
+
+React.js
+
+JavaScript
+
+HTML
+
+CSS
+
+React Router
+
+Vite
+
+JSON Server
+
+**Installation and Setup**
+
+Clone the repository:
+
+git clone https://github.com/sravanisingulurii/employee-hr-portal.git
+
+Navigate to the project folder:
+
+cd employee-hr-portal
+
+Install dependencies:
+
+npm install
+
+Start the JSON Server in one terminal:
+
+npm run server
+
+Start the React application in another terminal:
+
+npm run dev
+
+Open the local URL displayed in your terminal.
+
+**Backend API**
+
+The project uses JSON Server to manage data.
+
+Employees: /employees
+
+Departments: /departments
+
+Designations: /designations
+
+**Project Repository**
+
+https://github.com/sravanisingulurii/employee-hr-portal
