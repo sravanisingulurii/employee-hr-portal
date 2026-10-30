@@ -1,6 +1,5 @@
 
-const API_URL = "http://localhost:3000";
-
+const API_URL = "https://employee-hr-portal.onrender.com";
 async function request(endpoint, options = {}) {
   const response = await fetch(`${API_URL}${endpoint}`, {
     headers: {
