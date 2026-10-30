@@ -66,7 +66,7 @@ function Designations({ designations, employees, loadData }) {
 
     try {
       const response = await fetch(
-        `http://localhost:3000/designations/${id}`,
+        `https://employee-hr-portal.onrender.com/designations/${id}`,
         { method: "DELETE" }
       );
 

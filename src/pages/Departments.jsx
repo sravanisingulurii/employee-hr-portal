@@ -33,7 +33,7 @@ function Departments({
     }
 
     try {
-      const response = await fetch("http://localhost:3000/departments", {
+      const response = await fetch("https://employee-hr-portal.onrender.com/departments", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name }),
